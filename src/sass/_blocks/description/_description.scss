@@ -1,0 +1,55 @@
+.description__experience {
+    width: 88.8%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+}
+.description__title {
+    font-size: 16px;
+    line-height: 21px;
+    text-transform: uppercase;
+    margin: 0;
+    padding: 0;
+    margin-top: 54px;
+    margin-bottom: 27px;
+    color: #00ADEE;
+}
+.description__head {
+    padding: 0;
+    margin: 0;
+    margin-bottom: 20px;
+    font-size: 28px;
+    line-height: 37px;
+    text-align: center;
+    color: $title-color;
+}
+.description__text {
+    padding: 0;
+    margin: 0;
+    font-size: 16px;
+    line-height: 23px;
+    text-align: center;
+    color: $text-color;
+}
+.description__text-part1 {
+    margin-bottom: 30px;
+}
+.description__text-part2 {
+    margin-bottom: 19px;
+}
+.description__link {
+    text-decoration: none;
+    font-size: 16px;
+    line-height: 21px;
+    color: #00ADEE;
+    margin-bottom: 22px;
+}
+.description__link:hover {
+    opacity: 0.6;
+}
+.description__game {
+    background-image: url("../img/ronaldo-mobile.png");
+    background-repeat: no-repeat;
+}

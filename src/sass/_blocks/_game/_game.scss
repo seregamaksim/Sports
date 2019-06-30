@@ -1,0 +1,43 @@
+.game {
+    background-color: red;
+    width: 247.21px;
+}
+.game__info {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10.81px 18.7px 10.09px 11.51px;
+}
+.game__date {
+    font-size: 11.5px;
+    line-height: 15px;
+    font-weight: bold;
+    color: $text-color;
+    margin-bottom: 8.63px;
+}
+.game__teams,
+.game__match {
+    margin: 0;
+    padding: 0;
+}
+.game__teams {
+    font-size: 12px;
+    line-height: 16px;
+    margin-bottom: 9.35px;
+    max-width: 52px;
+}
+.game__match {
+    font-size: 11px;
+    line-height: 14px;
+}
+.game__arsenal-logo {
+    width: 48.76px;
+    height: 57.53px;
+}
+.game__chelsea-logo {
+    width: 57.66px;
+    height: 57.53px;
+}
+.game__notifications {
+    background-color: #EEEEEE;
+}

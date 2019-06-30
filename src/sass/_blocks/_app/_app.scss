@@ -1,0 +1,75 @@
+.app {
+    display: flex;
+    justify-content: space-between;
+    width: 320px;
+}
+.app__link {
+    display: flex;
+    background-color: #000;
+    align-items: center;
+    text-decoration: none;
+    color: #fff;
+    border-radius: 7px;
+}
+.app__link-apple {
+    padding: 5px 11px 5px 11px;
+}
+.app__link-google {
+    padding: 5px 17px 5px 12px;
+}
+.app__logo {
+    width: 25px;
+    height: 28px;
+    margin-right: 11px;
+}
+.app__download,
+.app__app-store,
+.app__google-play {
+    font-family: "Roboto";
+    padding: 0;
+    margin: 0;
+}
+.app__download {
+    font-size: 9.34901px;
+    line-height: 11px;
+}
+.app__app-store {
+    font-size: 20px;
+    line-height: 23px;
+    font-weight: 500;
+}
+.app__google-play {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 17px;
+    line-height: 19px;
+    font-weight: 300;
+}
+
+@media (min-width: $screen-desktop) {
+    .app {
+        width: 348px;
+    }
+    .app__logo {
+        margin-right: 13px;
+    }
+    .app__link-apple {
+        padding: 6px 13px 4px 12px;
+    }
+    .app__link-google {
+        padding: 6px 19px 5px 14px;
+    }
+    .app__download {
+        font-size: 10px;
+        line-height: 12px;
+    }
+    .app__app-store {
+        font-size: 21.2716px;
+        line-height: 25px;
+    }
+    .app__google-play {
+        font-size: 17.6041px;
+        line-height: 21px;
+    }
+}
