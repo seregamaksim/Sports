@@ -1,0 +1,35 @@
+.slider__item {
+    background-color: #fff;
+    border: 1px solid #828282;
+    box-sizing: border-box;
+    border-radius: 4px;
+    padding: 15px 13px 0 17px;
+    max-width: 309px;
+    height: 161px;
+}
+.slider__header,
+.slider__username {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.slider__header {
+    margin-bottom: 18px;
+}
+.slider__name,
+.slider__comment {
+    margin: 0;
+    padding: 0;
+}
+.slider__avatar {
+    margin-right: 11px;
+}
+.slider__name {
+    font-size: 16px;
+    line-height: 19px;
+}
+.slider__comment {
+    font-size: 14px;
+    line-height: 18px;
+    color: $text-color;
+}

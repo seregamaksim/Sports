@@ -1,0 +1,109 @@
+.description__experience {
+    width: 88.8%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+}
+.description__title {
+    font-size: 16px;
+    line-height: 21px;
+    text-transform: uppercase;
+    margin: 0;
+    padding: 0;
+    margin-top: 54px;
+    margin-bottom: 27px;
+    color: #00ADEE;
+}
+.description__head {
+    margin-bottom: 20px;
+}
+.description__text {
+    padding: 0;
+    margin: 0;
+    font-size: 16px;
+    line-height: 23px;
+    text-align: center;
+    color: $text-color;
+}
+.description__text-part1 {
+    margin-bottom: 30px;
+}
+.description__text-part2 {
+    margin-bottom: 19px;
+}
+.description__link {
+    text-decoration: none;
+    font-size: 16px;
+    line-height: 21px;
+    color: #00ADEE;
+    margin-bottom: 22px;
+}
+.description__link:hover {
+    opacity: 0.6;
+}
+.description__link:active {
+    opacity: 0.5;
+}
+.description__game {
+    height: 388px;
+    background-image: linear-gradient(to bottom, rgba(255, 255, 255, 1) 5.16%, rgba(255, 255, 255, 0) 67.14%, rgba(255, 255, 255, .5)), url("../img/ronaldo-mobile.png");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+@media (min-resolution: 144dpi), (min-resolution: 1.5dppx) {
+    .description__game {
+        background-image: linear-gradient(to bottom, rgba(255, 255, 255, 1) 5.16%, rgba(255, 255, 255, 0) 67.14%, rgba(255, 255, 255, .5)), url("../img/ronaldo-mobile@2x.png");
+    }
+}
+.description__game-wrapper {
+    width: 320px;
+    height: 278px;
+    position: relative;
+    margin: 0 auto;
+}
+@media (min-width: $screen-desktop) {
+    .description {
+        display: flex;
+        flex-direction: row-reverse;
+        justify-content: space-between;
+    }
+    .description__experience {
+        width: 44.097%;
+        align-items: flex-start;
+        margin: 0;
+    }
+    .description__title {
+        margin-top: 131px;
+    }
+    .description__head {
+        margin-bottom: 27px;
+    }
+    .description__text {
+        width: 64.09%;
+        text-align: left;
+    }
+    .description__text-part2 {
+        margin-bottom: 22px;
+    }
+    .description__link {
+        margin-bottom: 115px;
+    }
+    .description__game {
+        width: 55.902%;
+        height: 592px;
+        background-image: linear-gradient(to left, rgba(255, 255, 255, 1) 5.16%, rgba(255, 255, 255, 0) 67.14%, rgba(255, 255, 255, .5)), url("../img/ronaldo-desktop.png");
+    }
+    .description__game-wrapper {
+        width: 466px;
+        height: 416px;
+        position: relative;
+        margin: 0 auto;
+    }
+}

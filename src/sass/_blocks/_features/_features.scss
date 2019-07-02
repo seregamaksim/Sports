@@ -1,0 +1,119 @@
+.features {
+    padding-top: 42px;
+}
+.features__head {
+    padding-left: 5.833%;
+    padding-right: 5.833%;
+}
+.features__list,
+.features__item {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.features__list {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    margin-top: 57px;
+}
+.features__item {
+    width: 86.388%;
+    margin-bottom: 55px;
+}
+.features__item:last-child {
+    margin-bottom: 69px;
+}
+.features__item-description {
+    padding: 0;
+    margin: 0;
+    font-size: 16px;
+    line-height: 23px;
+    text-align: center;
+    color: $text-color;
+}
+.features__icon {
+    fill: #00ADEE;
+    margin-bottom: 16px;
+}
+.features__icon-monitor {
+    width: 37px;
+    height: 30px;
+}
+.features__icon-bell {
+    width: 32px;
+    height: 32px;
+}
+.features__icon-hd,
+.features__icon-stats,
+.features__icon-filter {
+    width: 30px;
+    height: 30px;
+}
+.features__icon-flag {
+    width: 25px;
+    height: 28px;
+}
+.features__icon-tent {
+    width: 35px;
+    height: 32px;
+}
+.features__icon-share {
+    width: 28px;
+    height: 37px;
+}
+.features__icon-men {
+    width: 37px;
+    height: 23px;
+}
+
+@media (min-width: $screen-desktop) {
+    .features {
+        background-color: #00ADEE;
+        background-image: url("../img/svg/bg-feature1.svg"),
+                        url("../img/svg/bg-feature2.svg");
+        background-repeat: no-repeat;
+        background-position: left top, right bottom;
+        background-size: contain;
+        padding-top: 76px;
+    }
+    .features__head {
+        margin: 0 auto;
+        color: #fff;
+    }
+    .features__list {
+        width: 77.152%;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: baseline;
+        align-content: space-between;
+        flex-wrap: wrap;
+        margin: 0 auto;
+        margin-top: 58px;
+    }
+    .features__item {
+        width: 27.992%;
+        margin-bottom: 45px;
+    }
+    .features__icon {
+        fill: #fff;
+    }
+    .features__item-description {
+        position: relative;
+        text-align: left;
+        text-indent: 15px;
+        color: #fff;
+    }
+    .features__item-description::before {
+        position: absolute;
+        content: "";
+        display: inline-block;
+        width: 7px;
+        height: 7px;
+        background-color: #fff;
+        border-radius: 50px;
+        top: 9px;
+        left: 0;
+    }
+}
