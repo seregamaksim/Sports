@@ -1,19 +1,42 @@
-<svg width="1440" height="716" viewBox="0 0 1440 716" fill="none" xmlns="http://www.w3.org/2000/svg">
-<mask id="mask0" mask-type="alpha" maskUnits="userSpaceOnUse" x="0" y="0" width="1440" height="716">
-<rect width="1440" height="716" transform="matrix(-1 0 0 1 1440 0)" fill="white"/>
-</mask>
-<g mask="url(#mask0)">
-<rect width="1440" height="716" transform="matrix(-1 0 0 1 1440 0)" fill="white"/>
-<g opacity="0.15">
-<circle r="399.5" transform="matrix(-1 0 0 1 1035 354)" stroke="#00ADEE"/>
-<circle opacity="0.65" r="499.5" transform="matrix(-1 0 0 1 1035 354)" stroke="#00ADEE"/>
-<circle opacity="0.55" r="599.5" transform="matrix(-1 0 0 1 1035 354)" stroke="#00ADEE"/>
-<circle opacity="0.45" r="699.5" transform="matrix(-1 0 0 1 1035 354)" stroke="#00ADEE"/>
-<circle opacity="0.35" r="799.5" transform="matrix(-1 0 0 1 1035 354)" stroke="#00ADEE"/>
-<circle opacity="0.25" r="899.5" transform="matrix(-1 0 0 1 1035 354)" stroke="#00ADEE"/>
-<circle opacity="0.15" r="999.5" transform="matrix(-1 0 0 1 1035 354)" stroke="#00ADEE"/>
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 23.0.3, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="Слой_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 1440 716" style="enable-background:new 0 0 1440 716;" xml:space="preserve">
+<style type="text/css">
+	.st0{fill:#FFFFFF;}
+	.st1{opacity:0.15;}
+	.st2{fill:none;stroke:#00ADEE;}
+	.st3{opacity:0.65;fill:none;stroke:#00ADEE;enable-background:new    ;}
+	.st4{opacity:0.55;fill:none;stroke:#00ADEE;enable-background:new    ;}
+	.st5{opacity:0.45;fill:none;stroke:#00ADEE;enable-background:new    ;}
+	.st6{opacity:0.35;fill:none;stroke:#00ADEE;enable-background:new    ;}
+	.st7{opacity:0.25;fill:none;stroke:#00ADEE;enable-background:new    ;}
+	.st8{opacity:0.15;fill:none;stroke:#00ADEE;enable-background:new    ;}
+	.st9{fill:none;stroke:#00ADEE;stroke-dasharray:8,8;}
+	.st10{fill:url(#SVGID_1_);}
+	.st11{fill:#00ADEE;}
+</style>
+<g>
+	<rect x="43.4" y="93.4" class="st0" width="1440" height="716"/>
+	<g class="st1">
+		<circle class="st2" cx="1035" cy="354" r="399.5"/>
+		<circle class="st3" cx="1035" cy="354" r="499.5"/>
+		<circle class="st4" cx="1035" cy="354" r="599.5"/>
+		<circle class="st5" cx="1035" cy="354" r="699.5"/>
+		<circle class="st6" cx="1035" cy="354" r="799.5"/>
+		<circle class="st7" cx="1035" cy="354" r="899.5"/>
+		<circle class="st8" cx="1035" cy="354" r="999.5"/>
+	</g>
+	<circle class="st9" cx="1035" cy="354" r="200.5"/>
+	<circle class="st9" cx="1035" cy="354" r="300.5"/>
 </g>
-<circle r="200.5" transform="matrix(-1 0 0 1 1035 354)" stroke="#00ADEE" stroke-dasharray="8 8"/>
-<circle r="300.5" transform="matrix(-1 0 0 1 1035 354)" stroke="#00ADEE" stroke-dasharray="8 8"/>
+<radialGradient id="SVGID_1_" cx="783.7117" cy="199.3828" r="31" gradientTransform="matrix(1 0 0 -1 0 718)" gradientUnits="userSpaceOnUse">
+	<stop  offset="0" style="stop-color:#000000"/>
+	<stop  offset="0.5559" style="stop-color:#FFFFFF;stop-opacity:0.1"/>
+</radialGradient>
+<circle class="st10" cx="783.7" cy="518.6" r="31"/>
+<g>
+	<circle class="st0" cx="783.7" cy="518.6" r="15"/>
 </g>
+<circle class="st11" cx="783.7" cy="518.6" r="7"/>
 </svg>

@@ -13,7 +13,7 @@
     margin: 0;
     padding: 0;
     margin-top: 54px;
-    margin-bottom: 27px;
+    margin-bottom: 28px;
     color: #00ADEE;
 }
 .description__head {
@@ -28,7 +28,7 @@
     color: $text-color;
 }
 .description__text-part1 {
-    margin-bottom: 30px;
+    margin-bottom: 24px;
 }
 .description__text-part2 {
     margin-bottom: 19px;
@@ -67,6 +67,7 @@
     height: 278px;
     position: relative;
     margin: 0 auto;
+    margin-top: 40px;
 }
 @media (min-width: $screen-desktop) {
     .description {
@@ -75,7 +76,7 @@
         justify-content: space-between;
     }
     .description__experience {
-        width: 44.097%;
+        width: 45.097%;
         align-items: flex-start;
         margin: 0;
     }
@@ -105,5 +106,6 @@
         height: 416px;
         position: relative;
         margin: 0 auto;
+        margin-top: 44px;
     }
 }

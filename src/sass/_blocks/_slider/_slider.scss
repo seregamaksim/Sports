@@ -1,11 +1,14 @@
+.slider {
+    position: relative;
+}
 .slider__item {
     background-color: #fff;
     border: 1px solid #828282;
     box-sizing: border-box;
     border-radius: 4px;
-    padding: 15px 13px 0 17px;
+    padding: 14px 13px 0 17px;
     max-width: 309px;
-    height: 161px;
+    height: 160px;
 }
 .slider__header,
 .slider__username {
@@ -28,8 +31,70 @@
     font-size: 16px;
     line-height: 19px;
 }
+/* Этот класс добавлен сюда, так как карусель бушует
+на иконку твиттера
+*/
+.owl-carousel .owl-item img {
+    width: auto;
+}
 .slider__comment {
     font-size: 14px;
     line-height: 18px;
     color: $text-color;
+}
+.slider__controls {
+    position: absolute;
+    top: 56px;
+    width: 100%;
+    z-index: 1;
+    pointer-events: none;
+}
+.slider__controls-arrow {
+    position: absolute;
+    pointer-events: all;
+}
+.slider__controls-img {
+    padding: 16px 19px;
+    border: 1px solid #00ADEE;
+    border-radius: 50px;
+    fill: #00ADEE;
+    background-color: #fff;
+}
+.slider__controls-arrow-left,
+.slider__controls-arrow-right {
+    top: 50%;
+}
+.slider__controls-arrow-left {
+    display: none;
+}
+.slider__controls-arrow-right {
+    right: 3px;
+}
+@media (min-width: 660px) {
+    .slider {
+        z-index: -1;
+    }
+    .slider__controls-arrow-left {
+        display: block;
+        left: 30px;
+    }
+    .slider__controls-arrow-right {
+        right: 30px;
+    }
+}
+@media (min-width: 1000px) {
+    .slider__controls-arrow-left {
+        left: 60px;
+    }
+    .slider__controls-arrow-right {
+        right: 60px;
+    }
+}
+@media (min-width: $screen-desktop) {
+    .slider__controls-arrow-left {
+        left: 101px;
+    }
+    .slider__controls-arrow-right {
+        right: 101px;
+    }
 }

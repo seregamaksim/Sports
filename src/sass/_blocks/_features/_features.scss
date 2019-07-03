@@ -1,9 +1,11 @@
 .features {
     padding-top: 42px;
+    background-color: #FAFAFA;
 }
 .features__head {
     padding-left: 5.833%;
     padding-right: 5.833%;
+    margin-top: 12px;
 }
 .features__list,
 .features__item {
@@ -22,6 +24,9 @@
     width: 86.388%;
     margin-bottom: 55px;
 }
+.features__item:nth-child(6) {
+    margin-bottom: 50px;
+}
 .features__item:last-child {
     margin-bottom: 69px;
 }
@@ -35,7 +40,7 @@
 }
 .features__icon {
     fill: #00ADEE;
-    margin-bottom: 16px;
+    margin-bottom: 15px;
 }
 .features__icon-monitor {
     width: 37px;
@@ -51,23 +56,34 @@
     width: 30px;
     height: 30px;
 }
+.features__icon-stats {
+    margin-top: 1px;
+}
 .features__icon-flag {
     width: 25px;
     height: 28px;
+    margin-top: 2px;
+    margin-left: 1px;
 }
 .features__icon-tent {
     width: 35px;
     height: 32px;
+    margin-top: 2px;
 }
 .features__icon-share {
     width: 28px;
     height: 37px;
+    margin-top: 1px;
+    margin-bottom: 8px;
 }
 .features__icon-men {
     width: 37px;
     height: 23px;
+    margin-top: 3px;
 }
-
+.features__icon-filter {
+    margin-bottom: 11px;
+} 
 @media (min-width: $screen-desktop) {
     .features {
         background-color: #00ADEE;
@@ -76,7 +92,7 @@
         background-repeat: no-repeat;
         background-position: left top, right bottom;
         background-size: contain;
-        padding-top: 76px;
+        padding-top: 74px;
     }
     .features__head {
         margin: 0 auto;
@@ -95,9 +111,49 @@
     .features__item {
         width: 27.992%;
         margin-bottom: 45px;
+        align-items: flex-start;
+    }
+    .features__item:nth-child(5) {
+        margin-bottom: 39px;
+    }
+    .features__item:nth-child(6) {
+        margin-bottom: 45px;
+    }
+    .features__item:nth-child(7),
+    .features__item:nth-child(8),
+    .features__item:nth-child(9) {
+        margin-top: -10px;
     }
     .features__icon {
         fill: #fff;
+    }
+    .features__icon-bell {
+        margin-left: 4px;
+    }
+    .features__icon-flag {
+        margin-left: 6px;
+    }
+    .features__icon-hd {
+        margin-left: 1px;
+    }
+    .features__icon-tent {
+        margin-top: 4px;
+        margin-left: 2px;
+    }
+    .features__icon-stats {
+        margin-left: 4px;
+    }
+    .features__icon-share {
+        margin-left: 5px;
+        margin-top: 4px;
+    }
+    .features__icon-men {
+        margin-left: 2px;
+        margin-bottom: 10px;
+    }
+    .features__icon-filter {
+        margin-top: 5px;
+        margin-bottom: 8px;
     }
     .features__item-description {
         position: relative;

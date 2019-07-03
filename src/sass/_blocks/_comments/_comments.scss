@@ -1,3 +1,22 @@
-.comments__head {
-    margin-top: 50px;
+.comments {
+    padding-bottom: 71px;
+    padding-top: 53px;
+}
+.comments__container {
+    position: relative;
+    margin-top: 39px;
+}
+@media (min-width: 660px) {
+    .comments__container {
+        background-image: linear-gradient(to left, #fff 0%, rgba(255, 255, 255, 0) 25%), linear-gradient(to right, #fff 0%, rgba(255, 255, 255, 0) 25%);
+    }
+}
+@media (min-width: $screen-desktop) {
+    .comments {
+        padding-top: 68px;
+        padding-bottom: 44px;
+    }
+    .comments__container {
+        margin-top: 63px;
+    }
 }

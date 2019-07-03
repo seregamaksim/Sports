@@ -1,3 +1,4 @@
+@charset "UTF-8";
 @font-face {
   font-family: "Lato";
   src: url("../fonts/Lato/Lato-Medium.woff") format("woff");
@@ -85,7 +86,7 @@ img {
   margin: 0; }
 
 .page-header__title {
-  margin-bottom: 33px;
+  margin-bottom: 29px;
   font-size: 30px;
   line-height: 40px;
   font-weight: bold;
@@ -130,11 +131,12 @@ img {
     font-size: 36px;
     line-height: 48px;
     width: 44.139%;
-    margin-bottom: 30px; }
+    margin-bottom: 28px; }
   .page-header__description {
     font-size: 18px;
     line-height: 26px;
-    width: 36.62%; }
+    width: 36.62%;
+    margin-bottom: 48px; }
   .page-header__app {
     margin-bottom: 164px; } }
 
@@ -152,26 +154,31 @@ img {
   border-radius: 7px; }
 
 .app__link-apple {
-  padding: 5px 11px 5px 11px; }
+  padding: 5.62px 11.46px 4.13px 11.51px; }
 
 .app__link-google {
-  padding: 5px 17px 5px 12px; }
+  padding: 5.62px 16.42px 5.5px 10.94px; }
 
 .app__logo {
   width: 25px;
   height: 28px;
   margin-right: 11px; }
 
-.app__download,
+.app__download-apple,
+.app__download-google,
 .app__app-store,
 .app__google-play {
   font-family: "Roboto";
   padding: 0;
   margin: 0; }
 
-.app__download {
+.app__download-apple {
   font-size: 9.34901px;
   line-height: 11px; }
+
+.app__download-google {
+  font-size: 10.2863px;
+  line-height: 12px; }
 
 .app__app-store {
   font-size: 20px;
@@ -185,6 +192,11 @@ img {
   font-size: 17px;
   line-height: 19px;
   font-weight: 300; }
+
+.app__google-text {
+  margin-top: 3px;
+  margin-right: 4px;
+  margin-left: -2px; }
 
 @media (min-width: 1440px) {
   .app {
@@ -228,7 +240,7 @@ img {
   margin: 0;
   padding: 0;
   margin-top: 54px;
-  margin-bottom: 27px;
+  margin-bottom: 28px;
   color: #00ADEE; }
 
 .description__head {
@@ -243,7 +255,7 @@ img {
   color: #4F4F4F; }
 
 .description__text-part1 {
-  margin-bottom: 30px; }
+  margin-bottom: 24px; }
 
 .description__text-part2 {
   margin-bottom: 19px; }
@@ -280,7 +292,8 @@ img {
   width: 320px;
   height: 278px;
   position: relative;
-  margin: 0 auto; }
+  margin: 0 auto;
+  margin-top: 40px; }
 
 @media (min-width: 1440px) {
   .description {
@@ -288,7 +301,7 @@ img {
     flex-direction: row-reverse;
     justify-content: space-between; }
   .description__experience {
-    width: 44.097%;
+    width: 45.097%;
     align-items: flex-start;
     margin: 0; }
   .description__title {
@@ -310,7 +323,8 @@ img {
     width: 466px;
     height: 416px;
     position: relative;
-    margin: 0 auto; } }
+    margin: 0 auto;
+    margin-top: 44px; } }
 
 .game {
   background-color: #fff;
@@ -328,22 +342,25 @@ img {
   justify-content: space-between;
   padding: 19px 10px 13px 11px; }
 
-.game__date {
-  font-size: 11.5px;
-  line-height: 15px;
-  font-weight: bold;
-  color: #4F4F4F; }
-
+.game__date,
 .game__teams,
 .game__match {
   margin: 0;
   padding: 0; }
 
+.game__date {
+  font-size: 11.5px;
+  line-height: 15px;
+  font-weight: bold;
+  color: #4F4F4F;
+  margin-top: -5px;
+  margin-bottom: 10px; }
+
 .game__teams {
   font-size: 12px;
   line-height: 16px;
-  margin-top: 9px;
-  margin-bottom: 10px;
+  margin-top: 2px;
+  margin-bottom: 13px;
   max-width: 52px; }
 
 .game__match {
@@ -352,7 +369,8 @@ img {
 
 .game__arsenal-logo {
   width: 48.76px;
-  height: 57.53px; }
+  height: 57.53px;
+  margin-right: 3px; }
 
 .game__chelsea-logo {
   width: 57.66px;
@@ -397,7 +415,8 @@ img {
 @media (min-width: 1440px) {
   .game {
     width: 360px;
-    border-radius: 4px; }
+    border-radius: 4px;
+    left: -6px; }
   .game__info {
     padding: 29px 15px 20px 16px; }
   .game__date {
@@ -406,8 +425,8 @@ img {
   .game__teams {
     font-size: 18px;
     line-height: 24px;
-    margin-top: 13px;
-    margin-bottom: 14px;
+    margin-top: 16px;
+    margin-bottom: 16px;
     max-width: 76px; }
   .game__match {
     font-size: 16px;
@@ -415,7 +434,8 @@ img {
     margin-bottom: 0; }
   .game__arsenal-logo {
     width: 71px;
-    height: 84px; }
+    height: 84px;
+    margin-right: -5px; }
   .game__chelsea-logo {
     width: 84px;
     height: 84px;
@@ -496,6 +516,9 @@ img {
   left: 83px; }
 
 @media (min-width: 1440px) {
+  .video {
+    bottom: 5px;
+    right: 5px; }
   .video__status-bar {
     bottom: 5px;
     left: 0;
@@ -525,11 +548,13 @@ img {
     left: 121px; } }
 
 .features {
-  padding-top: 42px; }
+  padding-top: 42px;
+  background-color: #FAFAFA; }
 
 .features__head {
   padding-left: 5.833%;
-  padding-right: 5.833%; }
+  padding-right: 5.833%;
+  margin-top: 12px; }
 
 .features__list,
 .features__item {
@@ -548,6 +573,9 @@ img {
   width: 86.388%;
   margin-bottom: 55px; }
 
+.features__item:nth-child(6) {
+  margin-bottom: 50px; }
+
 .features__item:last-child {
   margin-bottom: 69px; }
 
@@ -561,7 +589,7 @@ img {
 
 .features__icon {
   fill: #00ADEE;
-  margin-bottom: 16px; }
+  margin-bottom: 15px; }
 
 .features__icon-monitor {
   width: 37px;
@@ -577,21 +605,33 @@ img {
   width: 30px;
   height: 30px; }
 
+.features__icon-stats {
+  margin-top: 1px; }
+
 .features__icon-flag {
   width: 25px;
-  height: 28px; }
+  height: 28px;
+  margin-top: 2px;
+  margin-left: 1px; }
 
 .features__icon-tent {
   width: 35px;
-  height: 32px; }
+  height: 32px;
+  margin-top: 2px; }
 
 .features__icon-share {
   width: 28px;
-  height: 37px; }
+  height: 37px;
+  margin-top: 1px;
+  margin-bottom: 8px; }
 
 .features__icon-men {
   width: 37px;
-  height: 23px; }
+  height: 23px;
+  margin-top: 3px; }
+
+.features__icon-filter {
+  margin-bottom: 11px; }
 
 @media (min-width: 1440px) {
   .features {
@@ -600,7 +640,7 @@ img {
     background-repeat: no-repeat;
     background-position: left top, right bottom;
     background-size: contain;
-    padding-top: 76px; }
+    padding-top: 74px; }
   .features__head {
     margin: 0 auto;
     color: #fff; }
@@ -615,9 +655,38 @@ img {
     margin-top: 58px; }
   .features__item {
     width: 27.992%;
+    margin-bottom: 45px;
+    align-items: flex-start; }
+  .features__item:nth-child(5) {
+    margin-bottom: 39px; }
+  .features__item:nth-child(6) {
     margin-bottom: 45px; }
+  .features__item:nth-child(7),
+  .features__item:nth-child(8),
+  .features__item:nth-child(9) {
+    margin-top: -10px; }
   .features__icon {
     fill: #fff; }
+  .features__icon-bell {
+    margin-left: 4px; }
+  .features__icon-flag {
+    margin-left: 6px; }
+  .features__icon-hd {
+    margin-left: 1px; }
+  .features__icon-tent {
+    margin-top: 4px;
+    margin-left: 2px; }
+  .features__icon-stats {
+    margin-left: 4px; }
+  .features__icon-share {
+    margin-left: 5px;
+    margin-top: 4px; }
+  .features__icon-men {
+    margin-left: 2px;
+    margin-bottom: 10px; }
+  .features__icon-filter {
+    margin-top: 5px;
+    margin-bottom: 8px; }
   .features__item-description {
     position: relative;
     text-align: left;
@@ -642,7 +711,7 @@ img {
   align-items: center; }
 
 .user-friendly__wrapper {
-  padding-top: 62px; }
+  padding-top: 63px; }
 
 .user-friendly__container {
   width: 88.888%; }
@@ -657,7 +726,7 @@ img {
   line-height: 21px;
   text-transform: uppercase;
   color: #00ADEE;
-  margin-bottom: 27px; }
+  margin-bottom: 28px; }
 
 .user-friendly__head {
   margin-bottom: 27px; }
@@ -669,7 +738,7 @@ img {
   color: #4F4F4F; }
 
 .user-friendly__description-part1 {
-  margin-bottom: 27px; }
+  margin-bottom: 24px; }
 
 .user-friendly__description-part2 {
   margin-bottom: 25px; }
@@ -690,7 +759,7 @@ img {
   width: 100%;
   background-image: url("../img/svg/bg-friendly-mobile.svg");
   background-repeat: no-repeat;
-  background-position: center center;
+  background-position: center 80%;
   background-size: 631px 631px;
   display: flex;
   justify-content: center;
@@ -699,7 +768,7 @@ img {
 .user-friendly__interface-wrapper {
   position: relative;
   margin-top: 90px;
-  margin-left: -10px; }
+  margin-left: -25px; }
 
 .user-friendly__interface-wrapper::before,
 .user-friendly__interface-wrapper::after {
@@ -717,13 +786,13 @@ img {
 .user-friendly__interface-wrapper::before {
   background-image: url("../img/svg/bell-7.svg");
   background-size: 37px 39px;
-  top: 20px;
+  top: 21px;
   left: 20px; }
 
 .user-friendly__interface-wrapper::after {
   background-image: url("../img/svg/cart.svg");
-  bottom: 150px;
-  right: -10px; }
+  bottom: 151px;
+  right: -14px; }
 
 @media (min-width: 1440px) {
   .user-friendly__wrapper {
@@ -732,19 +801,28 @@ img {
     background-image: url("../img/svg/Group672.svg");
     background-repeat: no-repeat;
     background-position: right center;
-    padding-bottom: 39px; }
+    padding-bottom: 28px;
+    padding-top: 74px; }
   .user-friendly__container {
     width: 33.333%;
     margin-left: 11.25%;
     justify-content: flex-start;
     align-items: flex-start;
     background-color: transparent; }
+  .user-friendly__title {
+    margin-bottom: 27px; }
+  .user-friendly__description-part1 {
+    margin-bottom: 23px; }
+  .user-friendly__description-part2 {
+    margin-bottom: 30px; }
   .user-friendly__description {
     text-align: left; }
   .user-friendly__image {
     width: auto;
     background-image: none;
-    margin-right: 17.027%; }
+    margin-top: 5px;
+    margin-right: 17.027%;
+    margin-bottom: -5px; }
   .user-friendly__interface-wrapper {
     margin-top: 0;
     margin-left: 0; }
@@ -755,24 +833,43 @@ img {
   .user-friendly__interface-wrapper::before {
     background-image: url("../img/svg/bell-7.svg");
     background-size: 47px 49px;
-    top: 50px;
+    top: 65px;
     left: 25px; }
   .user-friendly__interface-wrapper::after {
     background-image: url("../img/svg/share-black.svg");
-    bottom: 150px;
-    right: -10px; } }
+    bottom: 145px;
+    right: -15px; } }
 
-.comments__head {
-  margin-top: 50px; }
+.comments {
+  padding-bottom: 71px;
+  padding-top: 53px; }
+
+.comments__container {
+  position: relative;
+  margin-top: 39px; }
+
+@media (min-width: 660px) {
+  .comments__container {
+    background-image: linear-gradient(to left, #fff 0%, rgba(255, 255, 255, 0) 25%), linear-gradient(to right, #fff 0%, rgba(255, 255, 255, 0) 25%); } }
+
+@media (min-width: 1440px) {
+  .comments {
+    padding-top: 68px;
+    padding-bottom: 44px; }
+  .comments__container {
+    margin-top: 63px; } }
+
+.slider {
+  position: relative; }
 
 .slider__item {
   background-color: #fff;
   border: 1px solid #828282;
   box-sizing: border-box;
   border-radius: 4px;
-  padding: 15px 13px 0 17px;
+  padding: 14px 13px 0 17px;
   max-width: 309px;
-  height: 161px; }
+  height: 160px; }
 
 .slider__header,
 .slider__username {
@@ -795,14 +892,69 @@ img {
   font-size: 16px;
   line-height: 19px; }
 
+/* Этот класс добавлен сюда, так как карусель бушует
+на иконку твиттера
+*/
+.owl-carousel .owl-item img {
+  width: auto; }
+
 .slider__comment {
   font-size: 14px;
   line-height: 18px;
   color: #4F4F4F; }
 
+.slider__controls {
+  position: absolute;
+  top: 56px;
+  width: 100%;
+  z-index: 1;
+  pointer-events: none; }
+
+.slider__controls-arrow {
+  position: absolute;
+  pointer-events: all; }
+
+.slider__controls-img {
+  padding: 16px 19px;
+  border: 1px solid #00ADEE;
+  border-radius: 50px;
+  fill: #00ADEE;
+  background-color: #fff; }
+
+.slider__controls-arrow-left,
+.slider__controls-arrow-right {
+  top: 50%; }
+
+.slider__controls-arrow-left {
+  display: none; }
+
+.slider__controls-arrow-right {
+  right: 3px; }
+
+@media (min-width: 660px) {
+  .slider {
+    z-index: -1; }
+  .slider__controls-arrow-left {
+    display: block;
+    left: 30px; }
+  .slider__controls-arrow-right {
+    right: 30px; } }
+
+@media (min-width: 1000px) {
+  .slider__controls-arrow-left {
+    left: 60px; }
+  .slider__controls-arrow-right {
+    right: 60px; } }
+
+@media (min-width: 1440px) {
+  .slider__controls-arrow-left {
+    left: 101px; }
+  .slider__controls-arrow-right {
+    right: 101px; } }
+
 .superiority {
   background-color: #FAFAFA;
-  padding-top: 57px;
+  padding-top: 49px;
   padding-bottom: 71px; }
 
 .superiority__head {
@@ -817,17 +969,24 @@ img {
   margin: 0 auto;
   list-style: none;
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
   align-items: center;
   flex-wrap: wrap; }
 
 .superiority__item {
-  margin-right: 10px;
-  margin-left: 10px;
-  margin-bottom: 25px; }
+  margin-bottom: 15px; }
 
-.superiority__item:last-child {
-  margin-bottom: 0; }
+.superiority__item-sports {
+  margin-left: -6px;
+  margin-right: 6px; }
+
+.superiority__item-designer-news {
+  margin-right: 15px; }
+
+.superiority__item-sky-sports {
+  margin-top: 21px;
+  margin-bottom: 0;
+  margin-left: 55px; }
 
 .superiority__logos:hover {
   opacity: 0.6; }
@@ -835,10 +994,19 @@ img {
 .superiority__logos:active {
   opacity: 0.3; }
 
+@media (min-width: 470px) {
+  .superiority__item-designer-news {
+    margin-right: 15px; }
+  .superiority__item-sky-sports {
+    margin-top: 0;
+    margin-left: 0; } }
+
 @media (min-width: 1440px) {
   .superiority {
-    padding-top: 57px;
+    padding-top: 49px;
     padding-bottom: 79px; }
+  .superiority__head {
+    margin-bottom: 56px; }
   .superiority__list {
     width: 75%; }
   .superiority__item {
@@ -848,7 +1016,7 @@ img {
   display: flex;
   flex-direction: column;
   align-items: center;
-  padding-top: 19px;
+  padding-top: 16px;
   padding-bottom: 261px;
   background-image: url("../img/example-footer-mobile.png");
   background-position: center bottom;
@@ -868,12 +1036,12 @@ img {
 
 .support__head {
   width: 88.888%;
-  margin-bottom: 15px; }
+  margin-bottom: 13px; }
 
 .support__text {
   padding: 0;
   margin: 0;
-  margin-bottom: 37px;
+  margin-bottom: 38.5px;
   width: 85.833%;
   font-size: 16px;
   line-height: 25px;
@@ -882,7 +1050,7 @@ img {
 
 @media (min-width: 1440px) {
   .support {
-    padding-top: 104px;
+    padding-top: 91px;
     justify-content: flex-end;
     align-items: flex-end;
     padding-bottom: 0;
@@ -900,7 +1068,7 @@ img {
     justify-content: flex-start;
     align-items: flex-start;
     margin-right: 9.861%;
-    margin-bottom: 97px; }
+    margin-bottom: 98px; }
   .support__head {
     margin-bottom: 35px;
     text-align: left; }
@@ -922,7 +1090,7 @@ img {
   align-items: flex-start; }
 
 .page-footer__logo {
-  margin-bottom: 11px; }
+  margin-bottom: 7px; }
 
 .page-footer__logo-img {
   width: 99px;
@@ -938,8 +1106,8 @@ img {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  width: 30.277%;
-  margin-bottom: 34px; }
+  width: 34.0625%;
+  margin-bottom: 32px; }
 
 .page-footer__social-icon {
   width: 25px;

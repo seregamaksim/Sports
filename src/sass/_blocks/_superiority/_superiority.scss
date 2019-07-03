@@ -1,6 +1,6 @@
 .superiority {
     background-color: #FAFAFA;
-    padding-top: 57px;
+    padding-top: 49px;
     padding-bottom: 71px;
 }
 .superiority__head {
@@ -15,17 +15,25 @@
     margin: 0 auto;
     list-style: none;
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: center;
     flex-wrap: wrap;
 }
 .superiority__item {
-    margin-right: 10px;
-    margin-left: 10px;
-    margin-bottom: 25px;
+    margin-bottom: 15px;
 }
-.superiority__item:last-child {
+.superiority__item-sports {
+    margin-left: -6px;
+    margin-right: 6px;
+}
+
+.superiority__item-designer-news {
+    margin-right: 15px;
+}
+.superiority__item-sky-sports {
+    margin-top: 21px;
     margin-bottom: 0;
+    margin-left: 55px;
 }
 .superiority__logos:hover {
     opacity: 0.6;
@@ -33,10 +41,22 @@
 .superiority__logos:active {
     opacity: 0.3;
 }
+@media (min-width: 470px) {
+    .superiority__item-designer-news {
+        margin-right: 15px;
+    }
+    .superiority__item-sky-sports {
+        margin-top: 0;
+        margin-left: 0;
+    }
+}
 @media (min-width: $screen-desktop) {
     .superiority {
-        padding-top: 57px;
+        padding-top: 49px;
         padding-bottom: 79px;
+    }
+    .superiority__head {
+        margin-bottom: 56px;
     }
     .superiority__list {
         width: 75%;
