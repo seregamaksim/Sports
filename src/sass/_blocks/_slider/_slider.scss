@@ -31,12 +31,6 @@
     font-size: 16px;
     line-height: 19px;
 }
-/* Этот класс добавлен сюда, так как карусель бушует
-на иконку твиттера
-*/
-.owl-carousel .owl-item img {
-    width: auto;
-}
 .slider__comment {
     font-size: 14px;
     line-height: 18px;
@@ -46,12 +40,11 @@
     position: absolute;
     top: 56px;
     width: 100%;
-    z-index: 1;
-    pointer-events: none;
+    z-index: 3;
 }
 .slider__controls-arrow {
     position: absolute;
-    pointer-events: all;
+    cursor: pointer;
 }
 .slider__controls-img {
     padding: 16px 19px;
@@ -71,9 +64,6 @@
     right: 3px;
 }
 @media (min-width: 660px) {
-    .slider {
-        z-index: -1;
-    }
     .slider__controls-arrow-left {
         display: block;
         left: 30px;
@@ -91,6 +81,7 @@
     }
 }
 @media (min-width: $screen-desktop) {
+    
     .slider__controls-arrow-left {
         left: 101px;
     }

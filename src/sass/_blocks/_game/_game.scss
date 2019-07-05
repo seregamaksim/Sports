@@ -38,7 +38,6 @@
 .game__match {
     font-size: 11px;
     line-height: 14px;
-    // margin-bottom: 11.51px;
 }
 .game__arsenal-logo {
     width: 48.76px;
@@ -97,12 +96,13 @@
     .game__date {
         font-size: 17px;
         line-height: 22px;
+        margin-top: 1px;
     }
     .game__teams {
         font-size: 18px;
         line-height: 24px;
-        margin-top: 16px;
-        margin-bottom: 16px;
+        margin-top: 13px;
+        margin-bottom: 14px;
         max-width: 76px;
     }
     .game__match {

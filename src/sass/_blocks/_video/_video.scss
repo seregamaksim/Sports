@@ -33,7 +33,9 @@
     width: 14px;
     height: 11px;
 }
-
+.video__window-desktop {
+    display: none;
+}
 .video__progress-bar {
     width: 118px;
     height: 3px;
@@ -59,14 +61,19 @@
     top: -2px;
     left: 83px;
 }
-
 @media (min-width: $screen-desktop) {
     .video {
-        bottom: 5px;
+        bottom: 10px;
         right: 5px;
     }
+    .video__window-desktop {
+        display: block;
+    }
+    .video__window-mobile {
+        display: none;
+    }
     .video__status-bar {
-        bottom: 5px;
+        bottom: 0px;
         left: 0;
         padding: 18px 16px 17px 21px;
         width: 323px;

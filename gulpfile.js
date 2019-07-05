@@ -62,7 +62,7 @@ function exportWebp() {
         })
     ]))
     .pipe(extReplace(".webp"))
-    .pipe(dest("src/img"));
+    .pipe(dest("src/img/webp"));
 }
 // function copy() {
 //     return src([

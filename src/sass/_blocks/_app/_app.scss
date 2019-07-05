@@ -11,6 +11,12 @@
     color: #fff;
     border-radius: 7px;
 }
+.app__link:hover {
+    background-color: rgb(44, 42, 42);
+}
+.app__link:active {
+    opacity: 0.6;
+}
 .app__link-apple {
     padding: 5.62px 11.46px 4.13px 11.51px;
 }

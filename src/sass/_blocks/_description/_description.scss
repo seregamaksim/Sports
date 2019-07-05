@@ -26,6 +26,7 @@
     line-height: 23px;
     text-align: center;
     color: $text-color;
+    max-width: 100%;
 }
 .description__text-part1 {
     margin-bottom: 24px;
@@ -99,7 +100,7 @@
     .description__game {
         width: 55.902%;
         height: 592px;
-        background-image: linear-gradient(to left, rgba(255, 255, 255, 1) 5.16%, rgba(255, 255, 255, 0) 67.14%, rgba(255, 255, 255, .5)), url("../img/ronaldo-desktop.png");
+        background-image: linear-gradient(to left, rgba(255, 255, 255, 1) 8.16%, rgba(255, 255, 255, 0.5) 67.14%, rgba(255, 255, 255, 0.1)), url("../img/ronaldo-desktop.png");
     }
     .description__game-wrapper {
         width: 466px;
