@@ -63,7 +63,7 @@
 }
 @media (min-width: $screen-desktop) {
     .video {
-        bottom: 10px;
+        bottom: 5px;
         right: 5px;
     }
     .video__window-desktop {
@@ -73,7 +73,7 @@
         display: none;
     }
     .video__status-bar {
-        bottom: 0px;
+        bottom: 5px;
         left: 0;
         padding: 18px 16px 17px 21px;
         width: 323px;

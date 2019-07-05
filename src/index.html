@@ -8,6 +8,7 @@
     <link rel="stylesheet" href="css/owl.carousel.min.css">
     <link rel="stylesheet" href="css/owl.theme.default.min.css">
     <link rel="stylesheet" href="css/style.min.css">
+    <script src="js/picturefill.min.js" async></script>
     <title>Sports</title>
 </head>
 <body>
@@ -311,14 +312,10 @@
                     <div class="description__video video">
                         <div class="video__container">
                             <picture>
-                                <source type="image/webp" srcset="img/video-mobile.webp 1x, img/video-mobile@2x.webp 2x">
-                                <source srcset="img/video-mobile.png 1x, img/video-mobile@2x.png 2x">
-                                <img class="video__window video__window-mobile" src="img/video-mobile.png" alt="Пример видео">
-                            </picture>
-                            <picture>
                                 <source type="image/webp" media="(min-width: 1440px)" srcset="img/video.webp 1x, img/video@2x.webp 2x">
+                                <source type="image/webp" srcset="img/video-mobile.webp 1x, img/video-mobile@2x.webp 2x">
                                 <source media="(min-width: 1440px)" srcset="img/video.png 1x, img/video@2x.png 2x">
-                                <img class="video__window video__window-desktop" src="img/video.png" alt="Пример видео">
+                                <img class="video__window" src="img/video-mobile.png" srcset="img/video-mobile@2x.png 2x" alt="Пример видео">
                             </picture>
                             <div class="video__status-bar">
                                 <svg class="video__pause">
@@ -350,14 +347,10 @@
                 <div class="user-friendly__image">
                     <div class="user-friendly__interface-wrapper">
                         <picture>
-                            <source type="image/webp" srcset="img/interface-mobile.webp 1x, img/interface-mobile@2x.webp 2x">
-                            <source srcset="img/interface-mobile.png 1x, img/interface-mobile@2x.png 2x">
-                            <img class="user-friendly__interface user-friendly__interface-mobile" src="img/interface-mobile.png" alt="Удобный интерфейс">
-                        </picture>
-                        <picture>
                             <source media="(min-width: 1440px)" type="image/webp" srcset="img/interface-desktop.webp 1x, img/interface-desktop@2x.webp 2x">
+                            <source type="image/webp" srcset="img/interface-mobile.webp 1x, img/interface-mobile@2x.webp 2x">
                             <source media="(min-width: 1440px)" srcset="img/interface-desktop.png 1x, img/interface-desktop@2x.png 2x">
-                            <img class="user-friendly__interface user-friendly__interface-desktop" src="img/interface-desktop.png" alt="Удобный интерфейс">
+                            <img class="user-friendly__interface" src="img/interface-mobile.png" srcset="img/interface-mobile@2x.png 2x" alt="Удобный интерфейс">
                         </picture>
                     </div>
                 </div>

@@ -528,14 +528,14 @@ img {
 
 @media (min-width: 1440px) {
   .video {
-    bottom: 10px;
+    bottom: 5px;
     right: 5px; }
   .video__window-desktop {
     display: block; }
   .video__window-mobile {
     display: none; }
   .video__status-bar {
-    bottom: 0px;
+    bottom: 5px;
     left: 0;
     padding: 18px 16px 17px 21px;
     width: 323px;
