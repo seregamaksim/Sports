@@ -53,6 +53,14 @@
     fill: #00ADEE;
     background-color: #fff;
 }
+.slider__controls-img:hover{
+    fill: #1f1e1e;
+    border-color: #1f1e1e;
+}
+.slider__controls-img:active {
+    fill: rgba($color: #1f1e1e, $alpha: 0.6);
+    border-color: rgba($color: #1f1e1e, $alpha: 0.6);;
+}
 .slider__controls-arrow-left,
 .slider__controls-arrow-right {
     top: 50%;
